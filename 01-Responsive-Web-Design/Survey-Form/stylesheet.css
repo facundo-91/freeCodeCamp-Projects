@@ -1,0 +1,97 @@
+html, body {
+	font-family: 'Open sans', sans-serif;
+	background: #403B4A;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #E7E9BB, #403B4A);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #E7E9BB, #403B4A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: #fff;    
+}
+#title {
+	text-align: center;
+	margin: 1rem;
+}
+#description {
+	text-align: center;
+	margin: 1rem 0 1.2rem;
+}
+#form-border {
+	background-color: rgba(0, 0, 0, 0.3);
+	color: #fff;
+	max-width: 60rem;
+	margin: 1rem auto;
+	padding: 1rem;
+	border-radius: 1rem;
+}
+.row {
+	margin-bottom: 1rem;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.col-left {
+	float: right;
+	width: 40%;
+	margin: 0 1rem;
+	text-align: right;
+}
+.col-right {
+	float: left;
+	width: 40%;
+}
+label {
+	margin-top: 0.5rem;
+}
+input[type=text], input[type=number], input[type=email], select {
+	padding: .2rem;
+	margin: 0.2392rem 0;
+	border: 1px solid #ccc;
+	border-radius: 1rem;
+}
+input[type=text], input[type=email] {
+	width: 20rem;
+}
+input[type=number] {
+	width: 4rem;
+}
+select {
+	width: 10rem;
+}
+#comments {
+	margin-top: 2rem;
+	text-align: center;
+}
+textarea {
+	display: block;
+	width: 40rem;
+	height: 10rem;
+	padding: 0.2rem;
+	margin: 0.5rem auto;
+}
+#submit {
+	margin: 2rem auto 0;
+}
+
+
+@media screen and (max-width: 768px) {
+	html, body {
+		font-size: 1.1rem;
+	}
+	.col-left {
+		width: 100%;
+		text-align: left;
+	}
+	.col-right {
+		width: 100%;
+	}
+	input[type=text], input[type=number], input[type=email], select {
+		margin: 0rem 1.5rem;
+	}
+	.custom-control {
+		padding-left: 4rem;
+	}
+	textarea {
+		width: 100%;
+		margin: 0 auto;
+	}
+}
