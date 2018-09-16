@@ -1,0 +1,382 @@
+html, body {
+	font-family: 'Open sans', sans-serif;
+	color: #fff; 
+}
+.row {
+	margin: 0 auto;
+	max-width: 90%;
+}
+
+/* NAV-BAR*/
+
+li {
+	list-style: none;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+header {
+	position: fixed;
+	top: 0;
+	padding: 0 5rem;
+	min-height: 5rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #fff;
+	border-bottom: solid 1px #ddd;
+	z-index: 1;
+}
+.logo {
+	width: 60vw;
+}
+.logo img {
+	width: 100%;
+	height: auto;
+	max-width: 10rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0.5rem 2rem;
+}
+nav {
+	font-weight: 400;
+}
+nav li {
+	padding-bottom: 5px; 
+}
+nav li a:hover {
+	color: #d52b1e;
+}
+#nav-bar ul {
+	width: 40vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: auto;
+}
+
+/* HERO */
+#hero {
+	background-image: url("./electric-overview-hero.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height:100vh;
+	margin-top: 5rem;
+	text-align: center;
+	text-shadow: 5px 5px 5px #000;
+}
+.hero-text-1 {
+	font-size: 4rem;
+	font-weight: 600;
+	text-transform: capitalize;
+	line-height: 1;
+	padding: 35vh 0 0;
+}
+.hero-text-2 {
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+/* VIDEO */
+#video-container {
+	background-image: url("./video-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	text-align: center;
+	text-shadow: 5px 5px 5px #000;
+	font-weight: 600;
+	font-size: 3rem;
+	padding-top: 4rem;
+}
+.videoWrapper {
+	display: flex;
+	justify-content: center;
+}
+#video {
+	width: 100%;
+	max-width: 960px;
+	height: 540px;
+	margin: 3rem 0 5rem;
+}
+
+/* INFO STRATO */
+#strato {
+	background-image: url("./electric-overview-stratocaster-bkgd.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+}
+.guitar-info {
+	width: 75%;
+	display: block;
+	float: left;
+	margin-top: 5rem;
+}
+.left-info {
+	width: 66%;
+	line-height: 1;
+}
+.guitar-name {
+	display: inline-block;
+	background-color: #fff;
+	color: #000;
+	font-size: 1.5rem;
+	font-weight: 800;
+	letter-spacing: .3rem;
+	padding: 0.25rem 0.5rem;
+}
+.guitar-name span {
+	font-size: 1rem;
+	top: -0.5rem;
+	position: relative;
+}
+.guitar-tag {
+	font-size: 3rem;
+	font-weight: 800;
+	color: #fff;
+}
+.guitar-btn {
+	padding: 1rem 0;
+}
+.button {
+	display: inline-block;
+	cursor: pointer;
+	color: #fff;
+	font-size: 1rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height: 1;
+	margin: 0;
+	padding: 12px 23px;
+	border: 0;
+	border-radius: 4px;
+	background-color: #d52b1e;
+	user-select: none;
+	vertical-align: middle;
+	white-space: nowrap;
+	transition: background-color 150ms ease;
+}
+.button:hover {
+	background-color: #b12419;
+	text-decoration: none;
+	outline: 0;
+	color: #fff;
+	cursor: pointer;
+}
+.right-info {
+	width: 33%;
+}
+.right-title {
+	color: #fff;
+	font-size: 1.5rem;
+	font-weight: 800;
+	letter-spacing: .3rem;
+}
+.artists-list {
+	color: #fff;
+	font-size: 0.8rem;
+	font-weight: 600;
+	letter-spacing: 0.1rem;
+	margin: 1rem 0 .9rem 0;
+	display: block;
+}
+.artists-list li {
+	list-style: disc;
+}
+.artists-list li span {
+	color:#999;
+}
+.bot-info {
+	max-width: none;
+	display: flex;
+	margin-left: -0.5rem;
+}
+.features {
+	width: 33%;
+	border-top: solid 3px #e1382b;
+	padding-top: 1rem;
+	margin: 0 0.5rem;
+}
+.head {
+	font-size: 1.5rem;
+	font-weight: 800;
+	letter-spacing: 0.2rem;
+}
+.feat-text{
+	font-size: 0.9rem;
+	line-height: 1.4;
+}
+.guitar-pic {
+	width: 25%;
+	display: block;
+	float: left;
+}
+.guitar-pic img {
+	width: 100%;
+	height: auto;
+}
+
+/* FOOTER */
+footer {
+	background: rgb(39, 39, 39);
+	font-size: 0.9rem;
+	height: 12rem;
+	letter-spacing: 0.0625rem;
+}
+footer .row {
+    padding: 1rem 0;
+    display: block;
+}
+footer p, footer a, footer li a {
+    color: #808080;
+}
+footer a:hover {
+	color: white;
+}
+footer p {
+	text-align: center;
+	
+}
+footer .footer-container {
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#email {
+	width: 14rem;
+	height: 2.5rem;
+	padding: 1.1rem 0 1.32rem 0;
+	border: none;
+	text-align: center;
+}
+#submit {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	margin-left: -0.3rem;
+}
+footer .footer-container .footer-icons {
+    width: 22rem;
+    display: flex;
+    justify-content: space-between;
+	font-size: 1.3rem;
+	margin-top: 2rem;
+}
+.copy {
+	font-size: 0.8rem;
+	margin-top: 2rem;
+}
+
+/* MEDIA QUERIES */
+/* Phones / Tablets */
+@media (min-width: 320px) and (max-width: 859px) {
+	header {
+		padding: 0;
+	}
+	.logo {
+		width: 30vw;
+	}
+	.logo img {
+		max-width: 7rem;
+	}
+	#nav-bar ul {
+		width: 70vw;
+		align-items: center;
+	}
+	nav li {
+		padding-bottom: 0;
+	}
+	#hero {
+		margin-top: 0;
+	}
+	#video {
+		max-width: 360px;
+		height: 203px;
+	}
+	#strato {
+		flex-direction: column;
+	}
+	.guitar-info {
+		width: 100%;
+	}
+	.guitar-pic {
+		width: 90%;
+		margin: 2rem auto;
+	}
+	.left-info {
+		width: 100%;
+		text-align: center;
+	}
+	.right-info {
+		display: none;
+	}
+
+	footer {
+		height: 18rem;
+	}
+	.copy {
+		font-size: 0.8rem;
+		margin-top: 3rem;
+	}
+	footer .footer-container {
+        flex-direction: column;
+	}
+	#form {
+		margin: 0 0 2rem;
+	}
+	#email {
+		width: 13rem;
+	}
+    footer .footer-container .footer-nav {
+		padding: 1rem 0 0;
+		text-align: center;
+		line-height: 2rem;
+		font-size: 1rem;
+    }
+    footer .footer-container .footer-icons {
+          width: 20rem;
+          font-size: 1.7em;
+          margin: 0;
+    }
+}
+
+/* Tablets - Landscape */
+@media (min-width: 860px) and (max-width: 1279px) {
+	header {
+		padding: 0;
+	}
+	#video {
+		max-width: 640px;
+		height: 360px;
+	}
+	#strato {
+		flex-direction: column;
+	}
+	.guitar-info {
+		width: 100%;
+	}
+	.guitar-pic {
+		width: 90%;
+		margin: 2rem auto;
+	}
+	.left-info {
+		width: 100%;
+		text-align: center;
+	}
+	.right-info {
+		display: none;
+	}
+}
+/* Laptops / Small Desktops */
+@media (min-width: 1280px) and (max-width: 1439px) {
+	header {
+		padding: 0 2rem;
+	}
+}

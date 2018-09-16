@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Product Landing Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+ </head>
+ <body>
+	<header id="header">
+		<div class="logo">
+			<img id="header-img" src="./Fender_guitars_logo.svg" alt="original fender logo" />
+		</div>
+		<nav id="nav-bar">
+			<ul>
+				<li><a class="nav-link" href="#hero">Home</a></li>
+				<li><a class="nav-link" href="#video">How It's Made</a></li>
+				<li><a class="nav-link" href="#strato">Pricing</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="hero">
+		<p class="hero-text-1">BE LOUD.<br>BE LEGENDARY.</p>
+		<br>
+		<p class="hero-text-2">It’s not just any electric guitar. It’s <i>your</i> electric guitar.</p>
+	</div>
+	<div id="video-container">
+		<p>A STRAT IS BORN</p>
+		<div class="videoWrapper">
+			<iframe id="video" src="https://www.youtube.com/embed/1MnylRaQC3w?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
+	<div id="strato" >
+		<div class="guitar-info">
+			<div class="row">
+				<div class="left-info">
+					<p class="guitar-name">Stratocaster<span>&reg;</span></p>
+					<p class="guitar-tag">THE WORLD'S<br>GREATEST<br>ELECTRIC GUITAR</p>
+					<p class="guitar-btn"><a href="" class="button">Buy Now</a></p>
+				</div>
+				<div class="right-info">
+					<p class="right-title">Artists</p>
+					<ul class="artists-list">
+						<li>David Gilmour <span>Pink Floyd</span></li>
+						<li>Albert Hammond <span>Jr. The Strokes</span></li>
+						<li>Simon Neil <span>Biffy Clyro</span></li>
+						<li>Buddy Guy</li>
+						<li>Eric Johnson</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="bot-info">
+					<div class="features">
+						<p class="head">The Feel</p>
+						<p class="feat-text">It's the contoured belly cut and double-cutaway body that made playing music comfortable and the sculpted design that made the Strat® an icon.</p>
+					</div>
+					<div class="features">
+						<p class="head">The Tone</p>
+						<p class="feat-text">Sparkle. Soar. Scream. Three versatile single-coil pickups propel your voice to expressive new heights.</p>
+					</div>
+					<div class="features">
+						<p class="head">The Legacy</p>
+						<p class="feat-text">No matter the genre, it doesn’t create musical icons. It is one.</p>
+					</div>
+				</div>		
+			</div>
+		</div>
+		<div class="guitar-pic">
+			<picture>
+				<source srcset="./electric-overview-stratocaster-guitar-mobile.png" media="(max-width: 1279px)">
+				<img src="./electric-overview-stratocaster-guitar.png" alt="">		
+			</picture>
+			
+		</div>
+	</div>
+	<footer>
+		<div class="row">
+			<div class="footer-container">
+				<form id="form" action="https://www.freecodecamp.com/email-submit">
+					<p>Join Our Newsletter</p>
+					<input name="email" id="email" type="email" placeholder=" Enter your email address" required/>
+					<input id="submit" type="submit" value="Subscribe" class="button">
+				</form>
+				<div class="footer-icons">
+					<a href="https://www.facebook.com/Fender/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+					<a href="https://twitter.com/Fender" target="_blank"><i class="fab fa-twitter"></i></a>
+					<a href="https://www.snapchat.com/add/fender"><i class="fab fa-snapchat"></i></a>
+					<a href="https://www.pinterest.com/fender/"><i class="fab fa-pinterest"></i></a>
+					<a href="https://instagram.com/fender" target="_blank"><i class="fab fa-instagram"></i></a>
+					<a href="https://www.youtube.com/user/fendermusical" target="_blank"><i class="fab fa-youtube"></i></a>
+					<a href="https://plus.google.com/+fender"><i class="fab fa-google-plus"></i></a>
+					<a href="https://officialfender.tumblr.com/"><i class="fab fa-tumblr"></i></a>
+				</div>
+			</div>
+			<p class="copy">&copy; 2018 - By Facundo Benitez</p>
+		</div>
+	</footer>
+ </body>
+ </html>
